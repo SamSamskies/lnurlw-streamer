@@ -1,6 +1,10 @@
 # LNURLw Streamer
 
-This is a wrapper around the LNbits LNURLw shareable link page. A success message is displayed whenever someone successfully claims an LNURL withdraw payment. LNURL withdraw QR code is refreshed after every payment. 
+This is a wrapper around the LNbits LNURLw shareable link page. A success message is displayed whenever someone successfully claims an LNURL withdraw payment. LNURL withdraw QR code is refreshed after every payment.
+
+example URL: https://lnurlw.vercel.app/?lnurlwUrl=https://559ff1ec4c.d.voltageapp.io/withdraw/H2YKsaxZTY8TzAYCyeMyTV
+
+example Webhook URL in the LNURLw settings on LNbits: https://lnurlw.vercel.app/api
 
 ## Development
 
