@@ -1,5 +1,5 @@
 {
-  "name": "lnurlw",
+  "name": "lnurlw-streamer",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "light-bolt11-decoder": "^2.1.0",
     "next": "12.2.3",
+    "pusher": "^5.1.1-beta",
+    "pusher-js": "^7.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
     "eslint": "8.20.0",
-    "eslint-config-next": "12.2.3"
+    "eslint-config-next": "12.2.3",
+    "prettier": "2.7.1"
   }
 }
