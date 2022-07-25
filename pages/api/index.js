@@ -11,8 +11,9 @@ export default async function handler(req, res) {
         useTLS: true,
       });
 
-      pusher.trigger("my-channel", "lnbits-lnurlw-success", req.body);
-      res.status(200).json({ message: "ok" });
+      pusher.trigger("my-channel", "lnbits-lnurlw-success", req.body, () => {
+        res.status(200).end('ok');
+      });
       break;
     default:
       res.setHeader("Allow", ["POST"]);
