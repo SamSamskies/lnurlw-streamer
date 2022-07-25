@@ -28,6 +28,7 @@ export default function Home() {
           .sections.find(({ name }) => name === "amount").value / 1000
       );
       setPaymentHash(data.payment_hash);
+      setTimeout(() => setAmount(null), 3000)
     });
   }, []);
 
@@ -44,7 +45,7 @@ export default function Home() {
       {!lnurlwUrl && !amount && (
         <h1>Missing required lnurlwUrl query param.</h1>
       )}
-      {lnurlwUrl && (
+      {lnurlwUrl && !amount && (
         <iframe
           key={paymentHash}
           src={lnurlwUrl}
