@@ -4,7 +4,7 @@ This is a wrapper around the LNbits LNURLw shareable link page. A success messag
 
 example Webhook URL in the LNURLw settings on LNbits: https://lnurlw.vercel.app/api
 
-example URL: https://lnurlw.vercel.app/?lnurlwUrl=https://559ff1ec4c.d.voltageapp.io/withdraw/H2YKsaxZTY8TzAYCyeMyTV
+example URL: https://lnurlw.vercel.app/?lnurlwUrl=https://559ff1ec4c.d.voltageapp.io/withdraw/6V6Lny3EdojGNCWEkvEDBv
 
 Set up the browser source in OBS to use this lnurlw.vercel.app URL. Dimensions should be width 1700 and height 800. You can resize and crop the source once it's on the screen. Make sure to replace the `lnurlwUrl` query param with your shareable LNURLw link from LNbits.
 
