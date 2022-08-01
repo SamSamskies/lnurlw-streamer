@@ -14,6 +14,9 @@ example URL: https://lnurlw.vercel.app/?lnurlwUrl=https://559ff1ec4c.d.voltageap
 
 Set up the browser source in OBS to use this lnurlw.vercel.app URL. Dimensions should be width 1700 and height 800. You can resize and crop the source once it's on the screen. Make sure to replace the `lnurlwUrl` query param with your shareable LNURLw link from LNbits.
 
+<img width="587" alt="Screen Shot 2022-08-01 at 12 32 38 AM" src="https://user-images.githubusercontent.com/3655410/182078800-52f501c2-a576-4760-955f-fd55c84bea07.png">
+
+
 ## Development
 
 First, run the development server:
