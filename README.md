@@ -5,7 +5,7 @@ This is a wrapper around the LNbits LNURLw shareable link page. A success messag
 ![lnurlw-stream-demo](https://user-images.githubusercontent.com/3655410/182078199-06bdd8b8-f90a-4681-a039-63b25136f559.gif)
 
 
-example Webhook URL in the LNURLw settings on LNbits: https://lnurlw.vercel.app/api
+example Webhook URL in the LNURLw settings on LNbits: `https://lnurlw.vercel.app/api`
 
 ![Screen Shot 2022-08-01 at 12 28 54 AM](https://user-images.githubusercontent.com/3655410/182078423-f89fe86f-7bdc-48d2-bfe0-e8760179b88a.png)
 
