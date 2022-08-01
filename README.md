@@ -1,6 +1,6 @@
 # LNURLw Streamer
 
-This is a wrapper around the LNbits LNURLw shareable link page. A success message is displayed whenever someone successfully claims an LNURL withdraw payment. LNURL withdraw QR code is refreshed after every payment.
+This is a wrapper around the LNbits LNURLw shareable link page. A success message is displayed whenever someone successfully claims an LNURL withdraw payment. LNURL withdraw QR code is refreshed after every payment. See it in action on [one of my live streams](https://youtu.be/zpt9jtYHD8g).
 
 ![lnurlw-stream-demo](https://user-images.githubusercontent.com/3655410/182078199-06bdd8b8-f90a-4681-a039-63b25136f559.gif)
 
