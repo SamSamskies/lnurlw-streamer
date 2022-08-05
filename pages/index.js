@@ -28,7 +28,7 @@ export default function Home() {
           .sections.find(({ name }) => name === "amount").value / 1000
       );
       setPaymentHash(data.payment_hash);
-      setTimeout(() => setAmount(null), 3000)
+      setTimeout(() => setAmount(null), 3000);
     });
   }, []);
 
@@ -61,17 +61,27 @@ export default function Home() {
         ></iframe>
       )}
       {amount && (
-        <h1
+        <div
           style={{
-            position: "fixed",
-            zIndex: 1,
-            top: 260,
-            left: 380,
-            fontSize: 48,
+            zIndex: 3,
+            position: "relative",
+            marginLeft: 310,
+            marginTop: 99,
+            width: 461,
+            height: 461,
           }}
         >
-          {amount.toString().replace(/000$/, "k")} sats claimed ⚡️
-        </h1>
+          <h1
+            style={{
+              fontSize: 42,
+              color: "red",
+              lineHeight: '461px',
+              textAlign: "center",
+            }}
+          >
+            {amount.toString().replace(/000$/, "k")} sats claimed ⚡️
+          </h1>
+        </div>
       )}
     </div>
   );
