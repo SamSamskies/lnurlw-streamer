@@ -74,7 +74,6 @@ export default function Home() {
           <h1
             style={{
               fontSize: 42,
-              color: "red",
               lineHeight: '461px',
               textAlign: "center",
             }}
