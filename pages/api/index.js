@@ -12,7 +12,7 @@ export default async function handler(req, res) {
       });
 
       pusher.trigger("my-channel", "lnbits-lnurlw-success", req.body, () => {
-        res.status(200).end('ok');
+        res.status(200).end("ok");
       });
       break;
     default:
